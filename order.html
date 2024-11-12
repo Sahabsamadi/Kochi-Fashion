@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Kochi Online Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">
+        <img src="K.png" alt="Logo" />
+    </div>
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="order.html">Order</a>
+        <a href="customer_services.html">Contact</a>
+        <a href="products.html">Products</a>
+    </div>
+    <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+    </div>
+</nav>
+
+
+    <main class="container">
+        <h1>Place Your Order</h1>
+        <form action="#" method="post">
+            <label for="item">Product Name:</label>
+            <input type="text" id="item" name="item" required>
+
+            <label for="quantity">Quantity:</label>
+            <textarea id="instructions" name="instructions" rows="1"></textarea>
+
+            <label for="instructions">Additional Instructions:</label>
+            <textarea id="instructions" name="instructions" rows="4"></textarea>
+
+            <label for="address">Shipping Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <input type="submit" value="Place Order">
+        </form><br>
+
+        <section class="section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+        
+            <div class="card">
+                <input type="checkbox" id="faq1" class="faq-toggle">
+                <label for="faq1" class="faq-question">What payment methods do you accept?</label>
+                <p class="faq-answer">We accept all major credit cards, PayPal, and bank transfers.</p>
+            </div>
+        
+            <div class="card">
+                <input type="checkbox" id="faq2" class="faq-toggle">
+                <label for="faq2" class="faq-question">How long does shipping take?</label>
+                <p class="faq-answer">Shipping typically takes 3-5 business days depending on your location.</p>
+            </div>
+        
+            <div class="card">
+                <input type="checkbox" id="faq3" class="faq-toggle">
+                <label for="faq3" class="faq-question">Can I modify my order after placing it?</label>
+                <p class="faq-answer">Once an order is placed, modifications are not possible. Please ensure all details are correct before submitting.</p>
+            </div>
+        
+            <div class="card">
+                <input type="checkbox" id="faq4" class="faq-toggle">
+                <label for="faq4" class="faq-question">Do you ship internationally?</label>
+                <p class="faq-answer">Yes, we offer international shipping to most countries. Please check the shipping policy for more details.</p>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        © 2024 Kochi Online Shopping. All Rights Reserved.
+    </footer>
+</body>
+</html>
+
