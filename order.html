@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kochi Online Shopping - Order Afghan Traditional Clothing Online.">
     <title>Order - Kochi Online Shopping</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Kt.png" sizes="32x32" type="image/png">
 </head>
 <body>
    <!-- Navbar -->
@@ -25,58 +28,55 @@
     </div>
 </nav>
 
+   <!-- Order Form Section -->
+<section class="order-form">
+    <div class="order-content">
+        <h1>Order Your Afghan Traditional Clothing</h1>
+        <p>Please fill in the form below to place your order.</p>
 
-    <main class="container">
-        <h1>Place Your Order</h1>
-        <form action="#" method="post">
-            <label for="item">Product Name:</label>
-            <input type="text" id="item" name="item" required>
+        <form action="order.php" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
 
-            <label for="quantity">Quantity:</label>
-            <textarea id="instructions" name="instructions" rows="1"></textarea>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
 
-            <label for="instructions">Additional Instructions:</label>
-            <textarea id="instructions" name="instructions" rows="4"></textarea>
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" required>
 
-            <label for="address">Shipping Address:</label>
+            <label for="address">Shipping Address</label>
             <textarea id="address" name="address" rows="4" required></textarea>
 
-            <input type="submit" value="Place Order">
-        </form><br>
+            <label for="product">Select Product</label>
+            <select id="product" name="product" required>
+                <option value="mens-shirt">Afghan Men’s Shirt</option>
+                <option value="womens-dress">Afghan Women’s Dress</option>
+                <option value="scarf">Afghan Scarf</option>
+            </select>
 
-        <section class="section">
-            <h2 class="section-title">Frequently Asked Questions</h2>
-        
-            <div class="card">
-                <input type="checkbox" id="faq1" class="faq-toggle">
-                <label for="faq1" class="faq-question">What payment methods do you accept?</label>
-                <p class="faq-answer">We accept all major credit cards, PayPal, and bank transfers.</p>
-            </div>
-        
-            <div class="card">
-                <input type="checkbox" id="faq2" class="faq-toggle">
-                <label for="faq2" class="faq-question">How long does shipping take?</label>
-                <p class="faq-answer">Shipping typically takes 3-5 business days depending on your location.</p>
-            </div>
-        
-            <div class="card">
-                <input type="checkbox" id="faq3" class="faq-toggle">
-                <label for="faq3" class="faq-question">Can I modify my order after placing it?</label>
-                <p class="faq-answer">Once an order is placed, modifications are not possible. Please ensure all details are correct before submitting.</p>
-            </div>
-        
-            <div class="card">
-                <input type="checkbox" id="faq4" class="faq-toggle">
-                <label for="faq4" class="faq-question">Do you ship internationally?</label>
-                <p class="faq-answer">Yes, we offer international shipping to most countries. Please check the shipping policy for more details.</p>
-            </div>
-        </section>
-        
-    </main>
+            <button type="submit" class="cta-button">Place Order</button>
+        </form>
+    </div>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs 2050</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <footer class="footer">
-        © 2024 Kochi Online Shopping. All Rights Reserved.
-    </footer>
+<br>
+
+<script src="docs.js"></script>
+
+<footer>
+    <p>&copy; 2024 KochiFashion. All Rights Reserved.</p>
+    <div class="social">
+        <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+    </div>
+</footer>
 </body>
 </html>
-
