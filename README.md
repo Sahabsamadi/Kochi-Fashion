@@ -25,3 +25,12 @@ To run this project locally on your machine, follow these steps:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/sahabsamadi/kochi-fashion-website.git
+   ## 🤝 Contribution
+Contributions are welcome! If you have suggestions or improvements, feel free to submit a pull request.
+
+## 📧 Contact
+- **Developer:** Sahab Samadi
+- **Email:** sahabsamadi2000@gmail.com
+
+## 📜 License
+*****xxxx****
