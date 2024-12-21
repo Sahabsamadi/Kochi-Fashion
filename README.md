@@ -21,11 +21,11 @@ To run this project locally on your machine, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/sahabsamadi/kochi-fashion-website.git
+   git clone https://github.com/sahabsamadi/kochi-fashion.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd kochi-fashion-website
+   cd kochi-fashion
    ```
 3. Open `index.html` in your browser to view the website.
 
